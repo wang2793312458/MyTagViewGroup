@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dreamlive.mytagviewgroup.MainActivity">
+
+    <com.dreamlive.mytagviewgroup.view.TagImageView
+        android:id="@+id/tagImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+    </com.dreamlive.mytagviewgroup.view.TagImageView>
+
+    <Button
+        android:id="@+id/transButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="创建标签" />
+
+    <Button
+        android:id="@+id/listBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="标签列表" />
+</LinearLayout>
